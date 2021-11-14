@@ -8,9 +8,7 @@ class UserController extends Controller
 {
     public function index()
     {
-        $users = User::whereHas('products', function($q){
-            $q->where('products.id',1);
-        })->get();
+        $users = User::get();
 
         dump($users);
     }

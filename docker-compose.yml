@@ -1,8 +1,8 @@
 # For more information: https://laravel.com/docs/sail
 version: '3'
 services:
-    return-laravel:
-        container_name: return_laravel
+    withas-laravel:
+        container_name: withas_laravel
         build:
             context: ./vendor/laravel/sail/runtimes/8.0
             dockerfile: Dockerfile
@@ -19,9 +19,9 @@ services:
         networks:
             - sail
         depends_on:
-            - return-database
-    return-database:
-        container_name: return_databse
+            - withas-database
+    withas-database:
+        container_name: withas_databse
         image: 'mysql:8.0'
         ports:
             - '${FORWARD_DB_PORT:-3306}:3306'
