@@ -130,7 +130,7 @@ class UserSeeder extends Seeder
     {
         return [
             [
-                'name' => 'Prod 34',
+                'name' => 'Prod 1',
                 'description' => '-',
                 'unit_price' => 25,
                 'quantity' => 2,
@@ -138,7 +138,7 @@ class UserSeeder extends Seeder
                 'user_id' => $userId
             ],
             [
-                'name' => 'Prod 31',
+                'name' => 'Prod 7',
                 'description' => '-',
                 'unit_price' => 250,
                 'quantity' => 3,
@@ -146,7 +146,7 @@ class UserSeeder extends Seeder
                 'user_id' => $userId
             ],
             [
-                'name' => 'Prod 3',
+                'name' => 'Prod 8',
                 'description' => '-',
                 'unit_price' => 20,
                 'quantity' => 5,
@@ -154,7 +154,7 @@ class UserSeeder extends Seeder
                 'user_id' => $userId
             ],
             [
-                'name' => 'Prod 455',
+                'name' => 'Prod 9',
                 'description' => '-',
                 'unit_price' => 50,
                 'quantity' => 1,
@@ -162,7 +162,7 @@ class UserSeeder extends Seeder
                 'user_id' => $userId
             ],
             [
-                'name' => 'Prod 523',
+                'name' => 'Prod 10',
                 'description' => '-',
                 'unit_price' => 849,
                 'quantity' => 1,
@@ -184,7 +184,7 @@ class UserSeeder extends Seeder
                 'user_id' => $userId
             ],
             [
-                'name' => 'Prod 2',
+                'name' => 'Prod 5',
                 'description' => '-',
                 'unit_price' => 15,
                 'quantity' => 3,
@@ -192,7 +192,7 @@ class UserSeeder extends Seeder
                 'user_id' => $userId
             ],
             [
-                'name' => 'Prod 3',
+                'name' => 'Prod 6',
                 'description' => '-',
                 'unit_price' => 20,
                 'quantity' => 5,
@@ -200,7 +200,7 @@ class UserSeeder extends Seeder
                 'user_id' => $userId
             ],
             [
-                'name' => 'Prod 4',
+                'name' => 'Prod 10',
                 'description' => '-',
                 'unit_price' => 50,
                 'quantity' => 1,
@@ -208,7 +208,7 @@ class UserSeeder extends Seeder
                 'user_id' => $userId
             ],
             [
-                'name' => 'Prod 5',
+                'name' => 'Prod 12',
                 'description' => '-',
                 'unit_price' => 1000,
                 'quantity' => 1,
@@ -222,7 +222,7 @@ class UserSeeder extends Seeder
     {
         return [
             [
-                'name' => 'Prod 75',
+                'name' => 'Prod 1',
                 'description' => '-',
                 'unit_price' => 345,
                 'quantity' => 2,
@@ -230,7 +230,7 @@ class UserSeeder extends Seeder
                 'user_id' => $userId
             ],
             [
-                'name' => 'Prod 45',
+                'name' => 'Prod 8',
                 'description' => '-',
                 'unit_price' => 128,
                 'quantity' => 3,
@@ -238,30 +238,13 @@ class UserSeeder extends Seeder
                 'user_id' => $userId
             ],
             [
-                'name' => 'Prod 65',
+                'name' => 'Prod 10',
                 'description' => '-',
                 'unit_price' => 324,
                 'quantity' => 5,
                 'total_cost' => 1620,
                 'user_id' => $userId
-            ],
-            [
-                'name' => 'Prod 86',
-                'description' => '-',
-                'unit_price' => 50,
-                'quantity' => 1,
-                'total_cost' => 50,
-                'user_id' => $userId
-            ],
-            [
-                'name' => 'Prod 165',
-                'description' => '-',
-                'unit_price' => 1000,
-                'quantity' => 1,
-                'total_cost' => 1000,
-                'user_id' => $userId
-            ],
+            ]
         ];
     }
-
 }
